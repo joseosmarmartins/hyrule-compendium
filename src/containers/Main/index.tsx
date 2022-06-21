@@ -1,7 +1,13 @@
-import * as Styled from './styled'
+import Categories from './sections/Categories'
+import Home from './sections/Home'
 
 function Main() {
-  return <Styled.Background />
+  return (
+    <div>
+      <Home />
+      <Categories />
+    </div>
+  )
 }
 
 export default Main

@@ -15,10 +15,22 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "error",
     "react/jsx-filename-extension": [
       1,
       { "extensions": [".js", ".jsx", "ts", "tsx"] }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
     ]
   },
   "settings": {

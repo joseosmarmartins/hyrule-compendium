@@ -22,4 +22,8 @@ export default createGlobalStyle`
     display: none !important;
   }
 
+  /* width */
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `
